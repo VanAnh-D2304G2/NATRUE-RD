@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+#carouselExampleIndicators1 h1{font-size: 3.6vw}
+#carouselExampleIndicators1 h2{font-size: 2.7vw}
+#mobai {background-color: #C66D48; padding: 3.5rem}
+.color-white {color: white}
+#mobai h1,h3{font-family: "Staatliches", sans-serif;}
+#try h1{font-family: "Erica One", sans-serif; padding: 3rem; font-size: 200%}
+#try h4{font-family: "Staatliches", sans-serif; padding-top: 1rem}
+#try h5{font-family: "Staatliches", sans-serif;}
+.text-body-green{background-color: #79C18D; padding: 0.5rem}
+.text-body-yellow{background-color: #F8E5B5; padding: 0.5rem}
+.text-body-purple{background-color: #C3B5D3; padding: 0.5rem}
+.text-red {color: #D35A2F}
+.green {border: medium solid #79C18D}
+.yellow {border: medium solid #F8E5B5}
+.purple {border: medium solid #C3B5D3}
+#ingre {padding: 3vw; background-color: #C66D48}
+#ingre p{font-size: 0.9rem}
+#born {padding: 3vw}
+#born .btn .btn-primary {padding: 0.5vw 3vw}
+#say {background-color: #C66D48;padding: 3vw}
+#say h3{font-family: "Erica One", sans-serif}
+#new h1,h2 {font-family: "Erica One", sans-serif; color: #C66D48}
+#new {padding: 3.5rem}
+#coming   { background-color: #C66D48; padding: 3vw;}
+#coming h1{font-family: "Erica One", sans-serif;}
+#coming .card img{display:block; width: 100%; height: auto; background-color: #C66D48; position: relative; overflow: hidden; padding: 1vw}
+#coming .card-overlay{position: absolute; background-color: rgba(255,255,255,0.43); transition: all 1s ease 0s;
+	display: flex; width: 92%; height: 95.8%; left: 4%; top: 1.95%;
+	align-items: center; opacity: 0}
+#coming .card-overlay:hover {opacity: 1}
+#try .card-overlay{background:rgba(198,109,72,0.44);text-align:center;position:relative; transition: all 1s ease 0s}
+#try .card .card-body img{width:100%;height:auto}
+#try .card:hover img{opacity:.5}
+#try .card .card-overlay{background:rgba(198,109,72,0.44);position:absolute;top:0;left:0;bottom:0;right:0;opacity:0}
+#try .card:hover .card-overlay{opacity:1}
+#try .card .title{line-height:17px;margin:5px 0;position:absolute;bottom:30%; transition: all 1s ease 0s}
+#try .card .icon li a,.card .icon li a{line-height:35px;border-radius:50%}
+#try .card .icon{list-style:none;padding:0;margin:0;position:absolute;top:40%}
+#try .card .icon li{display:inline-block;opacity:0;transform:translateY(40px)}
+#try .card:hover .icon li{opacity:1;transform:translateY(0)}
+#try .card:hover .icon li:first-child{transition-delay:.1s}
+#try .card:hover .icon li:nth-child(2){transition-delay:.2s}
+#try .card .icon li a{display:block;width:35px;height:35px;background:#C66D48;font-size:20px;color:#000;margin: 10px;transition:all 1s ease 0s; color: white}
+#try .card .icon a:hover{background: black; color: #D35A2F;box-shadow:0 0 0 5px rgba(0,0,0,.5)}
+#try .card .title:hover{box-shadow:0 0 0 5px rgba(0,0,0,.5)}
+
+
+#say img {position: relative; overflow: hidden; display:block}
+#say .card-overlay{position: absolute; background-color: rgba(198,109,72,0.44); transition: all 0.5s; display: flex; align-items: center; width: 100%; height: 100%; color: white; font-family: "Staatliches", sans-serif; text-align: center; padding: 1.5rem; opacity: 0; transition: all 1s ease 0s
+}
+#say .card:hover> .card-overlay {opacity:1}
+.brand-color {color: #C66D48}
+footer .btn-sm{
+	font-family: "Be Vietnam Pro", sans-serif; font-size: 90%; color: white}
+footer .form-control {font-size: 90%}
+footer h3{font-size: 100%}
+footer .icon a{font-size: 170%; padding: 2vw}
+footer p{ font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal; font-size: 1vw
+}
+footer {background-color: white; border-top: medium solid #C66D48}
+#banner {position: relative; display:block;}
+
+#banner .card-overlay {position: absolute; width: 100%; height:100%; transition: all 0.5s; opacity: 0; text-align: center;display: flex; align-items: center; bottom: 0}
+#banner .card-overlay .text h3,h2{font-family: "Erica One", sans-serif; color: white; }
+#banner .card-overlay .text h1{font-family: "Staatliches", sans-serif; color: white}
+#banner .card-overlay:hover {opacity:1}
+/*blog*/
+#slogan {background-image: url( "../img/blog-back.jpg"); background-position:top; padding: 3vw; background-repeat:repeat-x; background-size: contain }
+#slogan h1{font-family: "Erica One", sans-serif; color: #C66D48; font-size: 150%}
+.box1 img,.box1:after,.box1:before{width:100%;transition:all .3s ease 0s}
+.box1 .icon,.box1 .title{margin:0;position:absolute}
+.box1{position:relative; overflow: hidden}
+.box1:after,.box1:before{height:50%;background:rgba(0,0,0,.5);position:absolute;top:0;left:0;z-index:1;transform-origin:100% 0;transform:rotateZ(90deg)}
+.box1:after{top:auto;bottom:0;transform-origin:0 100%}
+.box1:hover:after,.box1:hover:before{transform:rotateZ(0)}
+.box1 img{height:auto;transform:scale(1) rotate(0)}
+.box1:hover img{transform:scale(1.3) rotate(10deg)}
+.box1 .title{font-size:150%;font-weight:600;color:antiquewhite;text-transform:uppercase;text-shadow:0 0 3px #C66D48;bottom:10px;left:10px;opacity:0;z-index:2;transform:scale(0);transition:all .5s ease .2s}
+.box1:hover .title{opacity:1;transform:scale(1)}
+#contact {padding: 2vw}
+#contact p{font-family: "Be Vietnam Pro", sans-serif; font-size: 85%}
+#contact h3{font-size: 100%}
+#contact .btn-sm{padding: 0.5vw 3vw; font-size: 100%}
+/*sản phẩm*/
+#try .nav-link{border: medium solid #C66D48; color: #C66D48; font-family:"Be Vietnam Pro", sans-serif; font-size: 80%}
+#try .nav-link.active{background-color: #C66D48; color:white}
+#thu {
+	background-image: url( "../img/Rectangle 288.png"); background-position: center; background-size: 100%; padding: 5% 0 2%; border: medium solid #C66D48
+}
+#thu h3{font-size: 140%}
+#thu p{font-size: 80%}
+#gthieu {background-image: url("../img/about-back.jpg"); background-size:contain; background-repeat:round; background-position: center; }
+#gthieu .box2, .box3{ position: relative}
+.box2 img{height:auto;transform:scale(1) rotate(0); margin: 1vw}
+.box2:hover img{transform: rotate(20deg)}
+.box3 img{height:auto;transform:scale(1) rotate(0); margin: 1vw}
+.box3:hover img{transform: rotate(-20deg)}
+.box-cam {background-color: #C66D48; padding: 2vw 2.5vw}
+#gthieu h4{font-family: "Staatliches", sans-serif; font-size: 150% }
+#gthieu .commu{background-image:url("../img/Rectangle 288.png"); background-size: 150%; background-repeat: no-repeat; background-position: center; padding: 2vw;
+}
+#thu1{
+	position: relative; transition: all 1s; height: 100%; background-image: url("../img/about-back.jpg" ); background-size: contain
+}
+#thu1 h3{font-size: 110%}
+#thu1 p{font-size: 70%;}
+#thu1 .text{position: absolute; transition: all 2s ease 0s; opacity: 0; left:0}
+#thu1 img{transition: all 2s ease 0s}
+#thu1 img:hover {opacity:0; transform: scale(2.2); bottom:1000}
+#thu1:hover .text{opacity: 1; padding: 2vw}
+/*CART*/
+#cart h1{font-family: "Erica One", sans-serif; font-size: 200%; color: #C66D48; padding: 0 0 3.5vw}
+#cart h5{font-family:"Be Vietnam Pro", sans-serif; font-size: 100%; font-weight: 700}
